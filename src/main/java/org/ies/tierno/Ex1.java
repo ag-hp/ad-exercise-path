@@ -21,7 +21,7 @@ public class Ex1 {
             // 3. CREAR EL FICHERO (VACIO)
             file.createNewFile();
 
-            // 4. ESCRIBIR TEXTO EN EL FICHERO
+            // 4. ESCRIBIR TEXTO EN EL FICHEROs
             try (FileWriter fileW = new FileWriter(file)) {
                 fileW.write("Cerado con IO");
             }
