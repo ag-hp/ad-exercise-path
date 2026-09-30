@@ -10,7 +10,7 @@ public class Main {
         String[] paths = {
                 "/tmp/acceso/introduccion.txt", // Ruta absoluta
                 "/tmp/otro/ejemplo.txt", // Ruta absoluta
-                "acceso/introduccion.txt", // Ruta relativa (se crea dentro de la carpeta del proyecto)
+                "acceso/introduccion.txt", // Ruta relativa (se crea dentro de la carpeta del proyecto / donde tenga la clase)
                 "otro/ejemplo.txt" // Ruta relativa
         };
 
