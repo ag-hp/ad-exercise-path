@@ -18,7 +18,7 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("1. IO ");
         System.out.println("2. NIO");
-        System.out.println("Escribe la opción que desee: ");
+        System.out.println("Escribe una opción: ");
 
         int option = keyboard.nextInt();
 

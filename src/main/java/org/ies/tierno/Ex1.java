@@ -23,7 +23,7 @@ public class Ex1 {
 
             // 4. ESCRIBIR TEXTO EN EL FICHEROs
             try (FileWriter fileW = new FileWriter(file)) {
-                fileW.write("Cerado con IO");
+                fileW.write("Creado con IO");
             }
 
             System.out.printf("Archivo IO: " + file.getName());
