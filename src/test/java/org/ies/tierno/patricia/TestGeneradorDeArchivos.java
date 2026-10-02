@@ -1,4 +1,4 @@
-package org.ies.tierno;
+package org.ies.tierno.patricia;
 
 public class TestGeneradorDeArchivos
 {

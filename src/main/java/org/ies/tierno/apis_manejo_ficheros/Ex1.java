@@ -1,9 +1,7 @@
-package org.ies.tierno;
+package org.ies.tierno.apis_manejo_ficheros;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 public class Ex1 {
 
@@ -21,7 +19,7 @@ public class Ex1 {
             // 3. CREAR EL FICHERO (VACIO)
             file.createNewFile();
 
-            // 4. ESCRIBIR TEXTO EN EL FICHEROs
+            // 4. ESCRIBIR TEXTO EN EL FICHERO
             try (FileWriter fileW = new FileWriter(file)) {
                 fileW.write("Creado con IO");
             }

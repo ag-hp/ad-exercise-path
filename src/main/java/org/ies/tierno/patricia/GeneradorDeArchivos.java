@@ -1,4 +1,4 @@
-package org.ies.tierno;
+package org.ies.tierno.patricia;
 
 import java.io.IOException;
 import java.io.File;
