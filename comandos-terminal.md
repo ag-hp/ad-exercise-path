@@ -1,6 +1,5 @@
 | Comando | Función |
 | :--- | :--- |
-| `cd ..` | Sube un nivel en las carpetas (vuelve a la carpeta anterior). |
 | `cd ../..` | Sube dos niveles seguidos en las carpetas. |
 | `cd tmp` | Entra en la carpeta `tmp` (directorio temporal). |
 | `mkdir nombreclase` | Crea una nueva carpeta con el nombre que elijas. |
