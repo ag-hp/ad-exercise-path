@@ -28,16 +28,16 @@
 
 ---
 
-<h2>Utiliza las Apis de NIO e IO para resolver cada uno de los ejercicios y compara los resultados.</h2>
+<h3>Utiliza las Apis de NIO e IO para resolver cada uno de los ejercicios y compara los resultados.</h3>
 
-<h3>1. Codifica un método que cree los siguientes archivos:</h3>
+<h4>1. Codifica un método que cree los siguientes archivos:</h4>
 
   - `/tmp/acceso/introduccion.txt`
   - `/tmp/otro/ejemplo.txt`
   - `acceso/introduccion.txt`
   - `otro/ejemplo.txt`
 
-<h3>2. Codifica un método que muestre las rutas absolutas de los siguientes archivos:</h3>
+<h4>2. Codifica un método que muestre las rutas absolutas de los siguientes archivos:</h4>
 
   - `/tmp/acceso/introduccion.txt`
   - `/tmp/otro/ejemplo.txt`
