@@ -1,14 +1,15 @@
 package org.ies.tierno.manejando_ficheros.ex1;
 
-import java.io.File;
-
 public class Main {
     public static void main(String[] args) {
-        File file1 = new File("/tmp/FicheroPresente/introduccion.txt");
-        File file2 = new File("/tmp/FicheroPresente/conclusion.txt");
 
-        FicheroPresente ficheroPresente = new FicheroPresente();
-        System.out.println(ficheroPresente.exists(file1));
-        System.out.println(ficheroPresente.exists(file2));
+        FicheroPresente buscadorIO = new FicheroPresente();
+        String nombreFichero1 = "README.md";
+        boolean ficheroIO = buscadorIO.existeFicheroIO(nombreFichero1);
+        System.out.println("Existe " + nombreFichero1 + " en el directorio?? " + ficheroIO);
+
+        FicheroPresente buscadorNIO = new FicheroPresente();
+        boolean ficheroNIO = buscadorNIO.existeFicheroIO("name.xml"); // cambiando el nombreFichero se hace true o false
+        System.out.println("Existe el directorio?? " + ficheroNIO);
     }
 }
