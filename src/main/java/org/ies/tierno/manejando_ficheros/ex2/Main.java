@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Existe " + nombreFichero1 + " en el directorio?? " + ficheroIO);
          */
 
+
         mirarDirectorio
     }
 }
