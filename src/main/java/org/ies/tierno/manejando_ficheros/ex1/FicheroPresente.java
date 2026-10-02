@@ -14,5 +14,11 @@ public class FicheroPresente {
 
     public boolean existeFicheronNIO(String nombreFichero) {
         return Files.exists(Path.of(nombreFichero));
+
+        /* Forma 2:
+            Path ruta = Path.of(nombreFichero);
+            return Files.exists(ruta);
+        */
+
     }
 }

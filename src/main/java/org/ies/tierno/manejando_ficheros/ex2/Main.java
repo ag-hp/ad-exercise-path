@@ -4,9 +4,13 @@ import java.io.File;
 
 public class Main {
     public static void main() {
-        File carpeta = new File("/tmp/mirarDirectorio");
-        mirarDirectorio buscarDirectory = new mirarDirectorio();
-        boolean existe = buscarDirectory.estaEn(carpeta, "introduccion.txt");
-        System.out.println("¿Está en la carpeta?: " + existe);
+        /*
+        FicheroPresente buscadorIO = new FicheroPresente();
+        String nombreFichero1 = "README.md";
+        boolean ficheroIO = buscadorIO.existeFicheroIO(nombreFichero1);
+        System.out.println("Existe " + nombreFichero1 + " en el directorio?? " + ficheroIO);
+         */
+
+        mirarDirectorio
     }
 }
