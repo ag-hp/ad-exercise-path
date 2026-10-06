@@ -69,4 +69,10 @@
 
 <h4>3. Repite los ejercicios 1 y 2 utilizando las clases del paquete java.nio.files (necesitarás las interfaces Path y Files).</h4>
 
-<p><em>Sugerencia: para empezar, apóyate en el ejemplo de manejo de NIO que estudiamos en clas
+<p><em>Sugerencia: para empezar, apóyate en el ejemplo de manejo de NIO que estudiamos en class
+
+--- 
+
+<p align="center">
+  <a href="https://github.com/ag-hp/dam.git"><img src="https://img.shields.io/badge/VER_REPOSITORIO_COMPLETO-DESARROLLO_DE_APLICACIONES_MULTIPLATAFORMA-238636?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Ver Repositorio Completo Desarrollo de Aplicaciones Multiplataforma"></a>
+</p>
