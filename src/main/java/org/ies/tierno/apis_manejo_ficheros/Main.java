@@ -24,11 +24,11 @@ public class Main {
 
         switch (option) {
             case 1 -> {
-                Ex1 io = new Ex1(); // Instanciamos (creamos) un objeto de la clase GestorIO
+                Exercises io = new Exercises(); // Instanciamos (creamos) un objeto de la clase GestorIO
                 io.createIO(paths); // Llamamos a su metodo pasandole la lista de rutas
             }
             case 2 -> {
-                Ex2 nio = new Ex2(); // Instanciamos (creamos) un objeto de la clase GestorNIO
+                Exercises nio = new Exercises(); // Instanciamos (creamos) un objeto de la clase GestorNIO
                 nio.createNIO(paths); // Llamamos a su metodo pasándole la lista de rutas
             }
         }
