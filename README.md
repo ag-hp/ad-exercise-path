@@ -79,20 +79,52 @@
 
 ---
 
-<h4>4. Crea un método que te diga si un determinado fichero pasado como parámetro
-es un directorio.</h4>
+<h4>4. Crea un método que te diga si un determinado fichero pasado como parámetro es un directorio.</h4>
 
-- En caso afirmativo devolverá true y, adicionalmente, mostrará por consola los ficheros que contiene (es decir, funcionaría como un ls o un dir). Resuélvelo tanto utilizando las clases del paquete java.io como usando las clases del paquete java.nio.file y compara las soluciones. 
+- En caso afirmativo devolverá true y, adicionalmente, mostrará por consola los ficheros que contiene (es decir, funcionaría como un ls o un dir). Resuélvelo tanto utilizando las clases del paquete java.io como usando las clases del paquete java.nio.file y compara las soluciones.
 
-<h4></h4>
-<h4></h4>
-<h4></h4>
-<h4></h4>
-<h4></h4>
-<h4></h4>
-<h4></h4>
+---
 
---- 
+<h4>5. Escribir el código necesario para mostrar por consola la siguiente información de un fichero que se le pasa a través de la línea de comandos (comprobar primero que el fichero está presente en el directorio en el que estamos):</h4>
+
+- Nombre
+- Ruta absoluta
+- Se puede leer
+- Tamaño
+- Decir si se trata de directorio o de un fichero
+
+<p>Resuélvelo tanto utilizando las clases del paquete java.io como usando las clases del paquete java.nio.file y compara las soluciones.</p>
+
+---
+
+<h4>6. Consulta el API de la clase File y programa un ejemplo de eliminación de un fichero pasado como parámetro. ¿Qué sucede si el fichero que se le pasa como parámetro en realidad no existe? ¿Se puede hacer esto mismo utilizando las clases del paquete java.nio.file? Justifica tu respuesta.</h4>
+
+- [TestGestorFicheros.java.pdf](https://github.com/user-attachments/files/33155171/TestGestorFicheros.java.pdf)
+- [GestorFicheros.java.pdf](https://github.com/user-attachments/files/33155331/GestorFicheros.java.pdf)
+
+---
+
+<h4>7. Utilizando tanto la api java.io como java.nio.file codifica un ejemplo de creación de un fichero en tu sistema de archivos.</h4>
+
+---
+
+<h4>8. Programa un ejemplo de la eliminación de un directorio que no está vacío, sino que contiene un directorio, que a su vez contiene algunos archivos (que previamente habrás colocado allí para eliminarlos después).</h4>
+
+<p>El método debería ser capaz de eliminar la estructura completa, es decir, le pasamos como parámetro un directorio y es capaz de eliminar todos los subdirectorios y sus contenidos. (SE SUGIERE REALIZAR LOS EJERCICIOS DE ELIMINACIÓN DE FICHEROS O DIRECTORIOS SOBRE UNA MÁQUINA VIRTUAL PARA EVITAR ACCIDENTES)</p>
+
+---
+
+<h4>9. ¿A qué clase pertenecen los métodos mkdir y mkdirs? ¿Qué diferencia estos métodos?</h4>
+
+---
+
+<h4>10. Programa un ejemplo de creación de un directorio en la ruta actual usando tanto io como nio.</h4>
+
+---
+
+<h4>11. Programa un ejemplo de creación de un directorio en una determinada ruta que no existe. (Es decir, la ruta que nos dan para que creemos el directorio dentro no existe) Prueba qué sucede en este caso.</h4>
+
+---
 
 <p align="center">
   <a href="https://github.com/ag-hp/dam.git"><img src="https://img.shields.io/badge/VER_REPOSITORIO_COMPLETO-DESARROLLO_DE_APLICACIONES_MULTIPLATAFORMA-238636?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Ver Repositorio Completo Desarrollo de Aplicaciones Multiplataforma"></a>
