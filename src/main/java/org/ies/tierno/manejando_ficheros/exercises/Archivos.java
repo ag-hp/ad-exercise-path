@@ -3,9 +3,9 @@ package org.ies.tierno.manejando_ficheros.exercises;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import static java.nio.file.Files.exists;
 
 public class Archivos {
-
 
     // 1. Creamos ruta y vemos si existe
     public boolean existeFicheroIO(String nombreFichero) {
@@ -13,11 +13,10 @@ public class Archivos {
         return archivo.exists();
     }
 
-        /* Forma 2:
-            Path ruta = Path.of(nombreFichero);
-            return Files.exists(ruta);
-        */
-
+    public boolean existeFicheroNIO(String nombreFichero) {
+        Path ruta = Path.of(nombreFichero);
+        return Files.exists(ruta);
+    }
 
     // 2.
     public boolean estarEnIO(String nombreFichero, String rutaDirectorio) {
@@ -26,21 +25,38 @@ public class Archivos {
     }
 
     public boolean estarEnNIO(String nombreFichero, String rutaDirectorio) {
-        return Files.exists(Path.of(nombreFichero, rutaDirectorio));
+        return exists(Path.of(nombreFichero, rutaDirectorio));
     }
+
+    // 3.
+
+
+
+    // 4.
+
+
+    // 5.
+
+
+    // 6.
+
+
+    // 7.
+
+
+    // 8.
+
+
+    // 9.
+
+
+    // 10.
+
+
+    // 11.
+
+
 }
 
 
 
-
-// 3.
-
-
-// 4.
-// 5.
-// 6.
-// 7.
-// 8.
-// 9.
-// 10.
-// 11.

@@ -1,9 +1,11 @@
 package org.ies.tierno.apis_manejo_ficheros;
 
-
 import java.util.Scanner;
 
-public class Main {
+import static org.junit.jupiter.api.Assertions.*;
+
+class ExercisesTest {
+
     public static void main(String[] args) throws Exception { // 'throws Exception' evita tener que capturar errores manualmente aquí
 
         // Array (lista) con las 4 rutas de los archivos que queremos procesar
