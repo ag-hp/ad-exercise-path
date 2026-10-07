@@ -22,7 +22,11 @@ class ArchivosTest {
         System.out.println("Existe el directorio?? " + estarEnNIO);
 
         // 3.
+        boolean  = archivos.estarEnIO("", "");
+        System.out.println("Existe en el directorio?? " + );
 
+        boolean  = archivos.estarEnNIO("", "");
+        System.out.println("Existe el directorio?? " + );
 
 
         // 4.

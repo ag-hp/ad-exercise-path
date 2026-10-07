@@ -29,7 +29,14 @@ public class Archivos {
     }
 
     // 3.
+    public boolean (String nombreFichero, String rutaDirectorio) {
+        File archivo = new File(nombreFichero, rutaDirectorio);
+        return archivo.exists();
+    }
 
+    public boolean (String nombreFichero, String rutaDirectorio) {
+        return exists(Path.of(nombreFichero, rutaDirectorio));
+    }
 
 
     // 4.
