@@ -57,19 +57,40 @@
   <img width="1483" height="853" alt="chuleta_mtodos_clase_file" src="https://github.com/user-attachments/assets/0e93f530-d4fd-4f3b-8007-cf4983be155d" />
 <br>
 
+---
+
 <h4>1. Consulta la API de la clase File, localiza el método exists y codifica un método que devuelva un valor booleano que indique si un determinado fichero está presente en la carpeta actual.</h4>
 
 <p>El nombre del fichero que queremos localizar se le pasa como parámetro al método que tú tienes que localizar.</p>
 
 <p>Codifica también lo necesario para probar este método (sólo el <code>main</code> puede ser estático).</p>
 
+---
+
 <h4>2. Ahora, en lugar de mirar en el directorio actual, tienes que codificar un método que te diga si un determinado fichero pasado como parámetro está presente dentro de un directorio también pasado como parámetro. Llama a este método "estaEn".</h4>
 
 <p>Escribe también el código necesario para poder probar el citado método.</p>
 
+---
+
 <h4>3. Repite los ejercicios 1 y 2 utilizando las clases del paquete java.nio.files (necesitarás las interfaces Path y Files).</h4>
 
 <p><em>Sugerencia: para empezar, apóyate en el ejemplo de manejo de NIO que estudiamos en class
+
+---
+
+<h4>4. Crea un método que te diga si un determinado fichero pasado como parámetro
+es un directorio.</h4>
+
+- En caso afirmativo devolverá true y, adicionalmente, mostrará por consola los ficheros que contiene (es decir, funcionaría como un ls o un dir). Resuélvelo tanto utilizando las clases del paquete java.io como usando las clases del paquete java.nio.file y compara las soluciones. 
+
+<h4></h4>
+<h4></h4>
+<h4></h4>
+<h4></h4>
+<h4></h4>
+<h4></h4>
+<h4></h4>
 
 --- 
 
