@@ -18,7 +18,7 @@ class ArchivosTest {
         boolean estarEnIO = archivos.estarEnIO("introduccion.txt", "/exercises");
         System.out.println("Existe en el directorio?? " + estarEnIO);
 
-        boolean estarEnNIO = archivos.estarEnNIO("", "");
+        boolean estarEnNIO = archivos.estarEnNIO("introduccion.txt", "/exercises");
         System.out.println("Existe el directorio?? " + estarEnNIO);
 
         // 3.
