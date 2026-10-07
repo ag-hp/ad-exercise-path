@@ -99,6 +99,10 @@
 
 <h4>6. Consulta el API de la clase File y programa un ejemplo de eliminación de un fichero pasado como parámetro. ¿Qué sucede si el fichero que se le pasa como parámetro en realidad no existe? ¿Se puede hacer esto mismo utilizando las clases del paquete java.nio.file? Justifica tu respuesta.</h4>
 
+[TestGestorFicheros.java.pdf](https://github.com/user-attachments/files/33155171/TestGestorFicheros.java.pdf)
+
+
+
 ---
 
 <h4>7. Utilizando tanto la api java.io como java.nio.file codifica un ejemplo de creación de un fichero en tu sistema de archivos.</h4>
